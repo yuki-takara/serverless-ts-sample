@@ -5,7 +5,6 @@ plugins:
   - serverless-layers
 
 custom:
-  webpackIncludeModules: true
   serverless-layers:
     layersDeploymentBucket: serverless-ts-sample-lambda-layers
 
