@@ -13,6 +13,9 @@ const serverlessConfiguration: Serverless = {
       webpackConfig: './webpack.config.js',
       includeModules: true,
     },
+    serverlessLayers: {
+      layersDeploymentBucket: 'serverless-ts-sample-lambda-layers',
+    },
   },
   // Add the serverless-webpack plugin
   plugins: ['serverless-webpack'],
