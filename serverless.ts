@@ -1,4 +1,4 @@
-import { Serverless } from 'serverless/aws';
+import { Serverless } from 'serverless/aws'
 
 const serverlessConfiguration: Serverless = {
   service: {
@@ -11,8 +11,8 @@ const serverlessConfiguration: Serverless = {
   custom: {
     webpack: {
       webpackConfig: './webpack.config.js',
-      includeModules: true
-    }
+      includeModules: true,
+    },
   },
   // Add the serverless-webpack plugin
   plugins: ['serverless-webpack'],
@@ -34,11 +34,11 @@ const serverlessConfiguration: Serverless = {
           http: {
             method: 'get',
             path: 'hello',
-          }
-        }
-      ]
-    }
-  }
+          },
+        },
+      ],
+    },
+  },
 }
 
-module.exports = serverlessConfiguration;
+module.exports = serverlessConfiguration
