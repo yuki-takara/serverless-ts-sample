@@ -23,5 +23,10 @@
     "webpack-node-externals": "^1.7.2"
   },
   "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
-  "license": "MIT"
+  "license": "MIT",
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "printWidth": 100
+  }
 }
